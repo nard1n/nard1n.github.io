@@ -1,0 +1,69 @@
+.nav-wrapper {
+    background-color: #e8eaf6;
+}
+
+.nav-wrapper a {
+    color:#333333;
+}
+
+.card-image {
+    box-shadow: 0px 10px 20px grey;
+}
+
+.parallax {
+    color: white;
+}
+
+.links {
+    margin-left: -2rem;
+ }
+ 
+ .links li {
+    display: inline-block;
+    padding-right: 0.8rem;
+    font-size: 2rem;
+ }
+ 
+ .links a {
+    color: #b584ff;
+    height: 2.5rem;
+ }
+
+ .purplec {
+    color: #b584ff;
+ }
+
+ .purpleb{
+     background-color: #b584ff;
+     color: white;
+ }
+
+ .pulse:hover {
+     background-color: #e8eaf6;
+ }
+
+ .card-title {
+    color: black !important;
+    background-color: #e8eaf6;
+    opacity: 0.5;
+}
+
+.cont {
+    height: 15em;
+}
+
+.tabs .tab a{
+    color: #b584ff;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: #9425F8;
+}
+
+.tabs .indicator{
+    background-color: #9425F8;
+}
+
+.tabs .tab a:focus.active{
+    background-color: transparent;
+}
