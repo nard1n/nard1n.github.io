@@ -1,16 +1,16 @@
 {
   "main": {
     "name": "Nardin Lachowski",
-    "occupation": "Full Stack Developer",
-    "description": "I am here to learn",
+    "occupation": "Software Engineer",
+    "description": "Loves the mountains",
     "image": "profilepic.jpeg",
-    "bio": "I have worked in tech for over 6 years, mainly in product support, implementations and software integrations! In 2020, I decided to take advantage of working from home and I enrolled into UConn's Fullstack Coding Bootcamp. This has led to earning my certification as a Fullstack Software Develper. I am eager to learn new technologies as I continue refining my skills and growing my portfolio. At the moment, I am working on a couple of projects that I will showcase on this page soon, so please stay tuned for updates.",
+    "bio": "Results oriented Web Developer with over 6 years of experience spanning various product integrations and software implementation projects. Worked at fast-paced internet and software companies to develop strong organizational skills leading all phases of diverse technology initiatives. Enjoys building new features that contribute to improved user experience and can spend hours effortlessly debugging away. My skills are varied across frontend and backend technologies with my strong suit being Node.js, React, Express.js, and Next.js.",
     "contactmessage": "Please reach out if you're interested in working together or just wanting to say hello!",
-    "email": "nardincodes@gmail.com",
+    "email": "nardin.lachowski@gmail.com",
     "phone": "(203) 570-9066",
     "address": {
-      "city": "Hingham",
-      "state": "Massachussets"
+      "city": "Boston Metro",
+      "state": "MA"
     },
     "website": "http://github.com/nard1n",
     "resumedownload": "./images/NL2021Resume.pdf",
@@ -31,26 +31,24 @@
       "education": [
       {
         "school": "University of Connecticut",
-        "degree": "Bachelor's Degree, Biological Sciences",
-        "graduated": "May 2013"
+        "degree": "Bachelor of Science"
       },
       {
-        "degree": "Certification, Full Stack Software Developer",
-        "graduated": "Apr 2021"
+        "degree": "Certificate, Full Stack Software Developer"
       }
     ],
     "work": [
       {
         "company": "KnownPoint Technology",
-        "title": "Intern Full Stack Software Developer",
-        "years": "May 2021 - Present",
+        "title": "Frontend Software Engineer",
+        "years": "Apr 2021 - Present",
         "description": "Scope, maintain, and implement new features. Fix bugs and improve site functionality."
       },
       {
         "company": "Paytronix Systems",
-        "title": "Implementations Specialist, Technology Consultant",
+        "title": "Product Implementations, Technology Consultant",
         "years": "Dec 2019 - Present",
-        "description": "Project Management of multifaceted implementation projects with varying product requirements. Discuss and tailor solutions to meet clients' needs."
+        "description": "Project Management of multifaceted product implementations projects with varying tech requirements. Wears many hats as I tailor solutions to meet individual clients' needs."
       },
       {
         "company": "CJ Affiliate",
@@ -91,7 +89,7 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Takeoff Travel Itenirary (MERN)",
+        "title": "Takeoff: Travel Itenirary",
         "category": "TakeOff is a travel planning and blog application. Users can keep track of current and past trips. The itinerary creator allows the user to keep track of planned events or outings. Since traffic and weather conditions can affect your plans, with a travel itinarary on hand you can be more flexible. Users can also create blogs of their favorite travel memories and list destinations for their future adventures. || Technologies: JS, CSS, Node, Express, React, Redux, MongoDB",
         "image": "takeoff.png",
         "url": "https://takeoff123.herokuapp.com/"
