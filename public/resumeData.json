@@ -2,7 +2,7 @@
   "main": {
     "name": "Nardin Lachowski",
     "occupation": "Software Engineer",
-    "description": "Loves the mountains",
+    "description": "I recharge at the mountains",
     "image": "profilepic.jpeg",
     "bio": "Results oriented Web Developer with over 6 years of experience spanning various product integrations and software implementation projects. Worked at fast-paced internet and software companies to develop strong organizational skills leading all phases of diverse technology initiatives. Enjoys building new features that contribute to improved user experience and can spend hours effortlessly debugging away. My skills are varied across frontend and backend technologies with my strong suit being Node.js, React, Express.js, and Next.js.",
     "contactmessage": "Please reach out if you're interested in working together or just wanting to say hello!",
@@ -46,8 +46,8 @@
       },
       {
         "company": "Paytronix Systems",
-        "title": "Product Implementations, Technology Consultant",
-        "years": "Dec 2019 - Present",
+        "title": "Software Implementations, Technology Consultant",
+        "years": "Dec 2019 - Jul 2021",
         "description": "Project Management of multifaceted product implementations projects with varying tech requirements. Wears many hats as I tailor solutions to meet individual clients' needs."
       },
       {
