@@ -1,0 +1,217 @@
+@import "../../global.scss";
+
+.work {
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .arrow {
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+
+    &.left {
+      left: 50px;
+      transform: rotateY(180deg);
+      @include mobile {
+        position: absolute;
+        bottom: 5%;
+      }
+    }
+
+    &.right {
+      right: 50px;
+      @include mobile {
+        position: absolute;
+        bottom: 5%;
+      }
+    }
+  }
+
+  .slider {
+    height: 550px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+    @include mobile {
+      position: absolute;
+      top: 10%;
+    }
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 700px;
+        height: 100%;
+        background-color: #ede9e6;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left {
+          flex: 10;
+          height: 80%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+
+          .leftContainer {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .imgContainer {
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              background-color: rgb(245, 179, 155);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              @include mobile {
+                width: 20px;
+                height: 20px;
+              }
+
+              img {
+                width: 25px;
+
+                @include mobile {
+                  width: 15px;
+                  height: 100%;
+                }
+              }
+            }
+
+            .aboutme {
+              width: 60%;
+            }
+
+            .aboutmepic {
+              border-radius: 30%;
+              height:7rem;
+              float:right;
+              box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+            }
+
+            h2 {
+              font-size: 20px;
+
+              @include mobile {
+                font-size: 20px;
+              }
+            }
+            .aboutdesc {
+              font-size: 18px;
+              font-weight: 300;
+            }
+            .workyear {
+              font-size: 13px;
+            }
+            .vspace {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+            }
+            .custmargin {
+              color: #595757;
+              margin: 4px 0 4px 4px;
+              font-size: 13px;
+            }
+          }
+        }
+
+/*  Button  
+--------------------------------------------------------- */
+
+        .button,
+        .button:visited,
+        button,
+        input[type="submit"],
+        input[type="reset"],
+        input[type="button"] {
+          font: 16px/30px "opensans-bold", sans-serif;
+          background: #516250;
+        display: flex;
+        justify-content: center;
+          text-decoration: none;
+          letter-spacing: 0;
+          color: #f3f4f6;
+          padding: 4px 20px;
+          margin-bottom: 4px;
+          border: none;
+          cursor: pointer;
+          height: auto;
+
+
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          -ms-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+
+          -moz-border-radius: 3px;
+          -webkit-border-radius: 3px;
+          -khtml-border-radius: 3px;
+          border-radius: 3px;
+        }
+
+        .button:hover,
+        button:hover,
+        input[type="submit"]:hover,
+        input[type="reset"]:hover,
+        input[type="button"]:hover {
+          background: #3d4145;
+          color: #f3f4f6;
+        }
+
+        .button:active,
+        button:active,
+        input[type="submit"]:active,
+        input[type="reset"]:active,
+        input[type="button"]:active {
+          background: #3d4145;
+          color: #f3f4f6;
+        }
+
+        .button.full-width,
+        button.full-width,
+        input[type="submit"].full-width,
+        input[type="reset"].full-width,
+        input[type="button"].full-width {
+          width: 100%;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          text-align: center;
+        }
+
+        /* Fix for odd Mozilla border & padding issues */
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+          border: 0;
+          padding: 0;
+        }
+
+        hr {
+          height: 1px;
+          border: 0;
+          border-top: 1px solid #f3f4f6;
+          margin-top: 7px;
+          padding-bottom: 7px;
+        }
+      }
+    }
+  }
+}
