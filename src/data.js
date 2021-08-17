@@ -26,7 +26,7 @@ export const featuredPortfolio = [
     {
       id: 4,
       title: "Uber Mobile Clone",
-      img: "../assets/uber.png",
+      img: "../assets/Uber.png",
       desc: "Clone of Uber designed with React Native and Tailwind. App calls various Google Maps APIs to complete routes (Places, Directions, and Distance Matrix APIS)",
       repo: "https://github.com/nard1n/uber-build",
       link: "https://expo.dev/@nard1n/uber-clone",
@@ -37,7 +37,7 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "Uber Clone",
-      img: "../assets/uber.png",
+      img: "../assets/Uber.png",
       desc: "Clone of Uber designed with React Native and Tailwind. App calls various Google Maps APIs to complete routes (Places, Directions, and Distance Matrix APIS)",
       repo: "https://github.com/nard1n/uber-build",
       link: "https://expo.dev/@nard1n/uber-clone",
