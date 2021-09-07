@@ -60,20 +60,28 @@ export const featuredPortfolio = [
     },
     {
       id: 4,
+      title: "Aibnb Clone",
+      img: "../assets/airbnb.png",
+      desc: "Airbnb frontend built Next.js, React, Tailwind CSS, MapBox, and deployed to Vercel. Includes functional search and date picker. Listings is a short set of data from an API",
+      repo: "https://github.com/nard1n/airbnb",
+      link: "https://airbnb-wheat.vercel.app/",
+    },
+    {
+      id: 5,
       title: "Hulu Clone",
       img: "../assets/hulu.png",
       desc: "Clone of hulu.com designed with as mobile-first responsive application.  Built with REACT.js, Next.js, and Tailwind CSS. The movies populated from TMDB API.",
       repo: "https://github.com/nard1n/hulu-clone/",
       link: "https://hulu-clone-beta-woad.vercel.app/",
     },
-    // {
-    //   id: 5,
-    //   title: "Robots Directory",
-    //   img: "../assets/robo.png",
-    //   desc: "React app that generates a robots directory by calling an API from which a user can sort dynamically.",
-    //   repo: "https://github.com/nard1n/robo",
-    //   link: "https://protected-thicket-18299.herokuapp.com/",
-    // },
+    {
+      id: 6,
+      title: "Robots Directory",
+      img: "../assets/robo.png",
+      desc: "React app that generates a robots directory by calling an API from which a user can sort dynamically.",
+      repo: "https://github.com/nard1n/robo",
+      link: "https://protected-thicket-18299.herokuapp.com/",
+    },
   ];
   
   // export const mobilePortfolio = [
