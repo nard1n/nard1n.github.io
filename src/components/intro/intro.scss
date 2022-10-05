@@ -4,7 +4,7 @@
   background-color: white;
   display: flex;
 
-  @include mobile{
+  @include mobile {
     flex-direction: column;
     align-items: center;
   }
@@ -14,8 +14,8 @@
     overflow: hidden;
 
     .imgContainer {
-      width: 700px;
-      height: 700px;
+      width: 55rem;
+      height: 55rem;
       background-color: #516250;
       border-radius: 50%;
       display: flex;
@@ -23,7 +23,7 @@
       justify-content: center;
       float: right;
 
-      @include mobile{
+      @include mobile {
         align-items: flex-start;
       }
 
@@ -31,7 +31,7 @@
         height: 95%;
         padding-left: 3%;
 
-        @include mobile{
+        @include mobile {
           height: 50%;
           margin-bottom: -5px;
         }
@@ -50,7 +50,7 @@
       flex-direction: column;
       justify-content: center;
 
-      @include mobile{
+      @include mobile {
         padding-left: 0;
         align-items: center;
       }
@@ -59,7 +59,7 @@
         font-size: 60px;
         margin: 10px 0;
 
-        @include mobile{
+        @include mobile {
           font-size: 40px;
         }
       }
@@ -69,7 +69,7 @@
       h3 {
         font-size: 30px;
 
-        @include mobile{
+        @include mobile {
           font-size: 20px;
         }
 
@@ -83,12 +83,12 @@
         }
 
         @keyframes blink {
-            50%{
-                opacity: 1;
-            }
-            100%{
-                opacity: 0;
-            }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
         }
       }
     }
